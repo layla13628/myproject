@@ -19,7 +19,7 @@
     @vite(['resources/sass/app.scss','resources/js/app.js'])
      <style>
         a{
-            color:#fffff
+            color:#ffffff
         }
  *{
     font-family:Almarai;
@@ -28,7 +28,7 @@
 </head>
 <body dir="rtl">
    <header>
-   <nav class="navbar"style="background-color: hsla(203, 78.00%, 23.10%, 0.90);">
+   <nav class="navbar"style="background-color: hsla(210, 66.70%, 1.20%, 0.98);">
     <div class="container-fluid">
     <ul class="list-inline">
         <li class="list-inline-item p-1"><a href="{{route('index')}}">الرئيسية</a></li>

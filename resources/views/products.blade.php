@@ -1,4 +1,4 @@
 @extends('layouts.app')
 @section('content')
-<p>Welcome To Products Page </p>
+<p> Welcome To Products Page </p>
 @endsection
