@@ -8,6 +8,12 @@ class Categories extends Model
 {
     protected $fillable = [
         'name',
-        'descreption',
+        'description',
+        'icon',
     ];
+
+    public function products()
+    {
+        return $this->hasMany(products::class);
+    }
 }
